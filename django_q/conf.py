@@ -63,6 +63,9 @@ class Conf:
     # ORM broker
     ORM = conf.get("orm", None)
 
+    # SCHEDULER DB
+    SCHEDULER_BD = conf.get('scheduler_db', None)
+
     # ORM support for read/write replicas
     HAS_REPLICA = conf.get("has_replica", False)
 
