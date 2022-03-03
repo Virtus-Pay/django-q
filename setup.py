@@ -20,7 +20,7 @@ setup(
     package_data={"django_q_virtus": ["py.typed"]},
     include_package_data=True,
     keywords="django_q_virtus",
-    name="django_q_virtus",
+    name="django_q",
     package_dir={"": "django_q"},
     setup_requires=[],
     url="https://github.com/Virtus-Pay/django-q",
