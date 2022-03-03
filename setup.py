@@ -17,7 +17,7 @@ setup(
     description=readme,
     long_description=readme,
     long_description_content_type="text/markdown",
-    package_data={"django_q_virtus": ["py.typed"]},
+    package_data={"django_q": ["py.typed"]},
     include_package_data=True,
     keywords="django_q_virtus",
     name="django_q",
